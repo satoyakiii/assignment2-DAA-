@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6074e643-7a1b-4f78-9c94-f35b4d731631" name="Changes" comment="chore: update .idea files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/BoyerMoore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="076e3475-6ed7-4d1b-83b4-e8600d087dfd" name="Changes" comment="test(algorithm): add JUnit tests for Boyer–Moore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +18,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="feature/metrics" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,25 +25,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "feature/algorithm",
+    "git-widget-placeholder": "feature/testing",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="chore: update .idea files">
+    <task id="LOCAL-00001" summary="test(algorithm): add JUnit tests for Boyer–Moore">
       <option name="closed" value="true" />
-      <created>1759745535305</created>
+      <created>1759746528474</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1759745535305</updated>
+      <updated>1759746528474</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix(metrics): update PerformanceTracker logic" />
     <MESSAGE value="chore: update .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update .idea files" />
+    <MESSAGE value="test(algorithm): add JUnit tests for Boyer–Moore" />
+    <option name="LAST_COMMIT_MESSAGE" value="test(algorithm): add JUnit tests for Boyer–Moore" />
   </component>
 </project>
