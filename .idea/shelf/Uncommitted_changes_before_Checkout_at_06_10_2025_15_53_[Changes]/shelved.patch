@@ -1,0 +1,62 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
++++ /dev/null	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
+@@ -1,54 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "git-widget-placeholder": "feature/optimization",
+-    "node.js.selected.package.tslint": "(autodetect)"
+-  }
+-}]]></component>
+-  <component name="TaskManager">
+-    <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
+-      <option name="closed" value="true" />
+-      <created>1759747164780</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1759747164780</updated>
+-    </task>
+-    <option name="localTasksCounter" value="2" />
+-    <servers />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="fix(metrics): update BenchmarkRunner logic" />
+-    <MESSAGE value="fix(algorithm): update Boyer-Moore implementation" />
+-    <option name="LAST_COMMIT_MESSAGE" value="fix(algorithm): update Boyer-Moore implementation" />
+-  </component>
+-</project>
+\ No newline at end of file
