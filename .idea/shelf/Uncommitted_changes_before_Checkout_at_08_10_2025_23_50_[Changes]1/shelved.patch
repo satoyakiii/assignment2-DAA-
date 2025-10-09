@@ -1,0 +1,2232 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1759955762582)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31__Changes_.xml	(date 1759955762582)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]" date="1759955483228" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:31 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_2.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_2.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_2.xml
+new file mode 100644
+--- /dev/null	(date 1759955762579)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_2.xml	(date 1759955762579)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2" date="1759955278120" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:27 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955546666)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]/shelved.patch	(date 1759955546666)
+@@ -0,0 +1,319 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0abbd85-8614-4f73-bcd4-a7bcca98b8cd\" name=\"Changes\" comment=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"feature/optimization\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759747164780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759747164780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"fix(metrics): update BenchmarkRunner logic\" />\r\n    <MESSAGE value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
+++++ b/.idea/workspace.xml	(date 1759955482939)
++@@ -4,7 +4,9 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+++    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation">
+++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+++    </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -30,10 +32,113 @@
++   </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++-    "git-widget-placeholder": "feature/optimization",
++     "node.js.selected.package.tslint": "(autodetect)"
++   }
++ }]]></component>
+++  <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="C:\Users\Пользователь\Desktop\DESIGN AND ANALYSIS\assignment2_boyermoore" />
+++    </key>
+++  </component>
+++  <component name="RunManager">
+++    <configuration default="true" type="JetRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <option name="filePath" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <envs>
+++        <env name="PYTHONUNBUFFERED" value="1" />
+++      </envs>
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="PARAMETERS" value="" />
+++      <option name="SHOW_COMMAND_LINE" value="false" />
+++      <option name="EMULATE_TERMINAL" value="false" />
+++      <option name="MODULE_MODE" value="false" />
+++      <option name="REDIRECT_INPUT" value="false" />
+++      <option name="INPUT_FILE" value="" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Python.FlaskServer">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="launchJavascriptDebuger" value="false" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Tox" factoryName="Tox">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Autodetect">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="_new_additionalArguments" value="&quot;&quot;" />
+++      <option name="_new_target" value="&quot;&quot;" />
+++      <option name="_new_targetType" value="&quot;PATH&quot;" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Doctests">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="CLASS_NAME" value="" />
+++      <option name="METHOD_NAME" value="" />
+++      <option name="FOLDER_NAME" value="" />
+++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+++      <option name="PATTERN" value="" />
+++      <option name="USE_PATTERN" value="false" />
+++      <method v="2" />
+++    </configuration>
+++  </component>
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
++       <option name="closed" value="true" />
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759955482954)
+++++ b/README.md	(date 1759955482954)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955571185)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1/shelved.patch	(date 1759955571185)
+@@ -0,0 +1,319 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0abbd85-8614-4f73-bcd4-a7bcca98b8cd\" name=\"Changes\" comment=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"feature/optimization\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759747164780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759747164780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"fix(metrics): update BenchmarkRunner logic\" />\r\n    <MESSAGE value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
+++++ b/.idea/workspace.xml	(date 1759955547041)
++@@ -4,7 +4,9 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+++    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation">
+++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+++    </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -30,10 +32,113 @@
++   </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++-    "git-widget-placeholder": "feature/optimization",
++     "node.js.selected.package.tslint": "(autodetect)"
++   }
++ }]]></component>
+++  <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="C:\Users\Пользователь\Desktop\DESIGN AND ANALYSIS\assignment2_boyermoore" />
+++    </key>
+++  </component>
+++  <component name="RunManager">
+++    <configuration default="true" type="JetRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <option name="filePath" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <envs>
+++        <env name="PYTHONUNBUFFERED" value="1" />
+++      </envs>
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="PARAMETERS" value="" />
+++      <option name="SHOW_COMMAND_LINE" value="false" />
+++      <option name="EMULATE_TERMINAL" value="false" />
+++      <option name="MODULE_MODE" value="false" />
+++      <option name="REDIRECT_INPUT" value="false" />
+++      <option name="INPUT_FILE" value="" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Python.FlaskServer">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="launchJavascriptDebuger" value="false" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Tox" factoryName="Tox">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Autodetect">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="_new_additionalArguments" value="&quot;&quot;" />
+++      <option name="_new_target" value="&quot;&quot;" />
+++      <option name="_new_targetType" value="&quot;PATH&quot;" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Doctests">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="CLASS_NAME" value="" />
+++      <option name="METHOD_NAME" value="" />
+++      <option name="FOLDER_NAME" value="" />
+++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+++      <option name="PATTERN" value="" />
+++      <option name="USE_PATTERN" value="false" />
+++      <method v="2" />
+++    </configuration>
+++  </component>
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
++       <option name="closed" value="true" />
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759955547057)
+++++ b/README.md	(date 1759955547057)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1759955762724)
++++ b/.idea/vcs.xml	(date 1759955762724)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_1.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_1.xml
+new file mode 100644
+--- /dev/null	(date 1759955762608)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_1.xml	(date 1759955762608)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1" date="1759955571862" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]1/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:32 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1759955762584)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32__Changes_.xml	(date 1759955762584)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]" date="1759955547330" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_32_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:32 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955238897)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1/shelved.patch	(date 1759955238897)
+@@ -0,0 +1,183 @@
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759758066294)
+++++ b/README.md	(date 1759758066294)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_36_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_36_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_36_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955803325)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_36_[Changes]/shelved.patch	(date 1759955803325)
+@@ -0,0 +1,307 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0abbd85-8614-4f73-bcd4-a7bcca98b8cd\" name=\"Changes\" comment=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <change afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Пользователь\\Desktop\\DESIGN AND ANALYSIS\\assignment2_boyermoore\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Python.FlaskServer\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"launchJavascriptDebuger\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"Tox\" factoryName=\"Tox\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"tests\" factoryName=\"Autodetect\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"tests\" factoryName=\"Doctests\">\r\n      <module name=\"assignment2-boyermoore\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"CLASS_NAME\" value=\"\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"FOLDER_NAME\" value=\"\" />\r\n      <option name=\"TEST_TYPE\" value=\"TEST_SCRIPT\" />\r\n      <option name=\"PATTERN\" value=\"\" />\r\n      <option name=\"USE_PATTERN\" value=\"false\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759747164780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759747164780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"fix(metrics): update BenchmarkRunner logic\" />\r\n    <MESSAGE value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 414f03a9039a80d6af44d8a5cc1d018591ede6ad)
+++++ b/.idea/workspace.xml	(date 1759955762692)
++@@ -4,7 +4,7 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation">
+++    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="Fixed issues in Boyer-Moore alorithm">
++       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++@@ -27,12 +27,40 @@
++     </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++   </component>
+++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+++  "lastFilter": {
+++    "state": "OPEN",
+++    "assignee": "meaemb"
+++  }
+++}]]></component>
+++  <component name="GithubPullRequestsUISettings"><![CDATA[{
+++  "selectedUrlAndAccountId": {
+++    "url": "https://github.com/satoyakiii/assignment2-DAA-",
+++    "accountId": "9d6a9753-6478-42fa-95b7-20595f7b813a"
+++  }
+++}]]></component>
+++  <component name="ProjectColorInfo"><![CDATA[{
+++  "associatedIndex": 8
+++}]]></component>
+++  <component name="ProjectId" id="33naPCCrpOSMUAxlEL2EA661PKj" />
++   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++     <ConfirmationsSetting value="2" id="Add" />
++   </component>
+++  <component name="ProjectViewState">
+++    <option name="hideEmptyMiddlePackages" value="true" />
+++    <option name="showLibraryContents" value="true" />
+++  </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++-    "node.js.selected.package.tslint": "(autodetect)"
+++    "RunOnceActivity.ShowReadmeOnStart": "true",
+++    "RunOnceActivity.git.unshallow": "true",
+++    "git-widget-placeholder": "feature/optimization",
+++    "kotlin-language-version-configured": "true",
+++    "node.js.detected.package.eslint": "true",
+++    "node.js.selected.package.eslint": "(autodetect)",
+++    "node.js.selected.package.tslint": "(autodetect)",
+++    "nodejs_package_manager_path": "npm",
+++    "vue.rearranger.settings.migration": "true"
++   }
++ }]]></component>
++   <component name="RecentsManager">
++@@ -139,6 +167,15 @@
++       <method v="2" />
++     </configuration>
++   </component>
+++  <component name="SharedIndexes">
+++    <attachedChunks>
+++      <set>
+++        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+++        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+++      </set>
+++    </attachedChunks>
+++  </component>
+++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
++       <option name="closed" value="true" />
++@@ -148,12 +185,43 @@
++       <option name="project" value="LOCAL" />
++       <updated>1759747164780</updated>
++     </task>
++-    <option name="localTasksCounter" value="2" />
+++    <task active="true" id="Default" summary="Default task">
+++      <changelist id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+++      <created>1759955264029</created>
+++      <option name="number" value="Default" />
+++      <option name="presentableId" value="Default" />
+++      <updated>1759955264029</updated>
+++      <workItem from="1759955265225" duration="496000" />
+++    </task>
+++    <task id="LOCAL-00002" summary="Fixed issues in Boyer-Moore alorithm">
+++      <option name="closed" value="true" />
+++      <created>1759955728693</created>
+++      <option name="number" value="00002" />
+++      <option name="presentableId" value="LOCAL-00002" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1759955728693</updated>
+++    </task>
+++    <option name="localTasksCounter" value="3" />
++     <servers />
++   </component>
+++  <component name="TypeScriptGeneratedFilesManager">
+++    <option name="version" value="3" />
+++  </component>
+++  <component name="Vcs.Log.Tabs.Properties">
+++    <option name="TAB_STATES">
+++      <map>
+++        <entry key="MAIN">
+++          <value>
+++            <State />
+++          </value>
+++        </entry>
+++      </map>
+++    </option>
+++  </component>
++   <component name="VcsManagerConfiguration">
++     <MESSAGE value="fix(metrics): update BenchmarkRunner logic" />
++     <MESSAGE value="fix(algorithm): update Boyer-Moore implementation" />
++-    <option name="LAST_COMMIT_MESSAGE" value="fix(algorithm): update Boyer-Moore implementation" />
+++    <MESSAGE value="Fixed issues in Boyer-Moore alorithm" />
+++    <option name="LAST_COMMIT_MESSAGE" value="Fixed issues in Boyer-Moore alorithm" />
++   </component>
++ </project>
++\ No newline at end of file
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759955571578)
+++++ b/README.md	(date 1759955571578)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955238892)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]/shelved.patch	(date 1759955238892)
+@@ -0,0 +1,116 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a02323a2-e381-420e-9093-df3121abb2c1\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/cli/BenchmarkRunner.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/cli/BenchmarkRunner.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"feature/optimization\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.BenchmarkRunner.executor\": \"Run\",\r\n    \"JUnit.BoyerMooreTest.executor\": \"Run\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision d7e419b78e3791cf6a108c418432479847f7b47f)
+++++ b/.idea/workspace.xml	(date 1759942337212)
++@@ -4,9 +4,9 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a02323a2-e381-420e-9093-df3121abb2c1" name="Changes" comment="">
++-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/main/java/cli/BenchmarkRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cli/BenchmarkRunner.java" afterDir="false" />
+++    <list default="true" id="a02323a2-e381-420e-9093-df3121abb2c1" name="Changes" comment="fix(cli): update BenchmarkRunner behavior">
+++      <change afterPath="$PROJECT_DIR$/src/main/README.md" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++@@ -21,23 +21,81 @@
++     </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++   </component>
+++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+++  "lastFilter": {
+++    "state": "OPEN",
+++    "assignee": "meaemb"
+++  }
+++}]]></component>
+++  <component name="GithubPullRequestsUISettings"><![CDATA[{
+++  "selectedUrlAndAccountId": {
+++    "url": "https://github.com/satoyakiii/assignment2-DAA-",
+++    "accountId": "9d6a9753-6478-42fa-95b7-20595f7b813a"
+++  }
+++}]]></component>
+++  <component name="ProjectColorInfo"><![CDATA[{
+++  "customColor": "",
+++  "associatedIndex": 7
+++}]]></component>
+++  <component name="ProjectId" id="33n3Oo2OVIX9wGaci4TJWfnzhsH" />
++   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++     <ConfirmationsSetting value="2" id="Add" />
++   </component>
+++  <component name="ProjectViewState">
+++    <option name="hideEmptyMiddlePackages" value="true" />
+++    <option name="showLibraryContents" value="true" />
+++  </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++     "Application.BenchmarkRunner.executor": "Run",
++     "JUnit.BoyerMooreTest.executor": "Run",
+++    "RunOnceActivity.ShowReadmeOnStart": "true",
+++    "RunOnceActivity.git.unshallow": "true",
++     "git-widget-placeholder": "master",
+++    "kotlin-language-version-configured": "true",
+++    "last_opened_file_path": "C:/Users/Пользователь/Desktop/DESIGN AND ANALYSIS/assignment2_kadane",
+++    "node.js.detected.package.eslint": "true",
+++    "node.js.selected.package.eslint": "(autodetect)",
++     "node.js.selected.package.tslint": "(autodetect)",
+++    "nodejs_package_manager_path": "npm",
++     "project.structure.last.edited": "Project",
++     "project.structure.proportion": "0.0",
++-    "project.structure.side.proportion": "0.0"
+++    "project.structure.side.proportion": "0.0",
+++    "vue.rearranger.settings.migration": "true"
++   }
++ }]]></component>
+++  <component name="SharedIndexes">
+++    <attachedChunks>
+++      <set>
+++        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+++        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+++      </set>
+++    </attachedChunks>
+++  </component>
+++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++   <component name="TaskManager">
+++    <task id="LOCAL-00001" summary="fix(cli): update BenchmarkRunner behavior">
+++      <option name="closed" value="true" />
+++      <created>1759756589009</created>
+++      <option name="number" value="00001" />
+++      <option name="presentableId" value="LOCAL-00001" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1759756589009</updated>
+++    </task>
+++    <task active="true" id="Default" summary="Default task">
+++      <changelist id="a02323a2-e381-420e-9093-df3121abb2c1" name="Changes" comment="fix(cli): update BenchmarkRunner behavior" />
+++      <created>1759938979475</created>
+++      <option name="number" value="Default" />
+++      <option name="presentableId" value="Default" />
+++      <updated>1759938979475</updated>
+++      <workItem from="1759938980870" duration="2575000" />
+++    </task>
+++    <option name="localTasksCounter" value="2" />
++     <servers />
++   </component>
+++  <component name="TypeScriptGeneratedFilesManager">
+++    <option name="version" value="3" />
+++  </component>
++   <component name="Vcs.Log.Tabs.Properties">
++     <option name="TAB_STATES">
++       <map>
++@@ -49,4 +107,8 @@
++       </map>
++     </option>
++   </component>
+++  <component name="VcsManagerConfiguration">
+++    <MESSAGE value="fix(cli): update BenchmarkRunner behavior" />
+++    <option name="LAST_COMMIT_MESSAGE" value="fix(cli): update BenchmarkRunner behavior" />
+++  </component>
++ </project>
++\ No newline at end of file
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1759955983920)
++++ b/README.md	(date 1759955983920)
+@@ -0,0 +1,172 @@
++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
++
++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
++Built using Maven for modular structure, clean workflow, and reproducible builds.
++
++## Overview
++
++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
++
++This repository unifies all main branches into one modular project:
++
++- algorithms/ → Core Boyer–Moore implementation
++
++- metrics/ → PerformanceTracker for counting comparisons and assignments
++
++- cli/ → Benchmark runner that exports CSV results
++
++- testing/ → JUnit test suite for correctness
++
++- optimization/ → Improved version with reduced redundant comparisons
++
++## Project Structure
++assignment2_boyermoore/
++├── pom.xml
++├── README.md
++├── docs/
++│   └── performance-plots/
++│       ├── time_vs_n.csv
++│       └── time_vs_n.png
++└── src/
++├── main/java/
++│   ├── algorithms/
++│   │   └── BoyerMoore.java
++│   ├── metrics/
++│   │   └── PerformanceTracker.java
++│   └── cli/
++│       └── BenchmarkRunner.java
++└── test/java/
++└── algorithms/
++└── BoyerMooreTest.java
++
++## Build and Run
++### To build:
++mvn -q clean package
++
++### To run the CLI benchmark:
++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
++
++
++Example Output:
++
++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
++
++## Usage (as a Library)
++import algorithms.BoyerMoore;
++import metrics.PerformanceTracker;
++
++public class Demo {
++public static void main(String[] args) {
++int[] arr = {3, 3, 4, 2, 3, 3, 5};
++
++        PerformanceTracker tracker = new PerformanceTracker();
++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
++
++        System.out.println("Majority element: " + majority);
++        System.out.println("Comparisons: " + tracker.getComparisons());
++        System.out.println("Assignments: " + tracker.getAssignments());
++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
++    }
++}
++
++## Testing
++
++All tests are located in:
++
++src/test/java/algorithms/BoyerMooreTest.java
++
++
++Run tests using:
++
++mvn test
++
++
++Expected Result:
++
++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
++
++## Algorithm Summary
++
++- Core Logic:
++  - Maintain a candidate and count.
++  - Increment count when the same element repeats, decrement otherwise.
++  - Reset candidate when count becomes zero.
++
++- Pseudo-code:
++
++candidate = None
++count = 0
++for x in array:
++if count == 0:
++candidate = x
++count += (1 if x == candidate else -1)
++return candidate if it appears > n/2 times else null
++
++
++- Time Complexity: O(n)
++
++- Space Complexity: O(1)
++
++## Performance Metrics
++
++Performance metrics are collected using PerformanceTracker during CLI execution.
++
++time_ms -	Runtime in milliseconds
++comparisons	- Number of comparison operations
++assignments	- Number of variable assignments
++array_accesses -	Number of element accesses
++## Performance Results
++
++After running the CLI benchmark, the results are stored in:
++
++docs/performance-plots/time_vs_n.csv
++
++Example Table:
++
++n	time (ms)	comparisons	assignments	accesses
++100	0	200	1	100
++1000	0	2000	1	1000
++10000	1	20000	1	10000
++100000	6	200000	1	100000
++Time vs Input Size
++
++The linear growth confirms theoretical O(n) complexity.
++
++### Time vs n
++![Time vs n](docs/performance-plots/time_vs_n.png)
++
++## Optimization Module
++
++The optimization branch (feature/optimization) includes:
++- Reduced redundant comparisons.
++- Early termination when remaining elements cannot affect the result.
++- Optional skipping logic when count resets.
++
++Result:
++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
++
++## Git Branch Overview
++
++main - Stable integrated version
++feature/algorithm -	Boyer–Moore implementation
++feature/metrics	- Performance tracking
++feature/testing - JUnit test suite
++feature/cli	CLI - benchmark and CSV generation
++feature/optimization - Improved algorithm and comparison runner
++
++
++## Troubleshooting
++Issue	Solution
++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
++CSV not created	Ensure folder docs/performance-plots/ exists
++Maven build errors	Use mvn clean package and reimport Maven
++NullPointerException	Check that input array is not null
++## Acknowledgments
++
++Developed by Rakhmanova Assem
++for the Design and Analysis of Algorithms course.
++Implements clean code, metrics-based analysis, and linear-time optimization principles.
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1759955762701)
++++ b/.idea/misc.xml	(date 1759955762701)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_1.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_1.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_1.xml
+new file mode 100644
+--- /dev/null	(date 1759955255282)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_1.xml	(date 1759955255282)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1" date="1759955238897" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]1/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:27 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1759955255280)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27__Changes_.xml	(date 1759955255280)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]" date="1759955232572" recycled="false" toDelete="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 08.10.2025 23:27 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: docs/performance-plots/time_vs_n(with_graph).csv
+===================================================================
+diff --git a/docs/performance-plots/time_vs_n(with_graph).csv b/docs/performance-plots/time_vs_n(with_graph).csv
+new file mode 100644
+--- /dev/null	(date 1759773002115)
++++ b/docs/performance-plots/time_vs_n(with_graph).csv	(date 1759773002115)
+@@ -0,0 +1,5 @@
++n;time_ms;comparisons;assignments;array_accesses
++100;0;200;1;100
++1000;0;2000;1;1000
++10000;0;20000;1;10000
++100000;3;200000;1;100000
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955277366)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_27_[Changes]2/shelved.patch	(date 1759955277366)
+@@ -0,0 +1,319 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0abbd85-8614-4f73-bcd4-a7bcca98b8cd\" name=\"Changes\" comment=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"feature/optimization\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759747164780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759747164780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"fix(metrics): update BenchmarkRunner logic\" />\r\n    <MESSAGE value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
+++++ b/.idea/workspace.xml	(date 1759955255365)
++@@ -4,7 +4,9 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+++    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation">
+++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+++    </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -30,10 +32,113 @@
++   </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++-    "git-widget-placeholder": "feature/optimization",
++     "node.js.selected.package.tslint": "(autodetect)"
++   }
++ }]]></component>
+++  <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="C:\Users\Пользователь\Desktop\DESIGN AND ANALYSIS\assignment2_boyermoore" />
+++    </key>
+++  </component>
+++  <component name="RunManager">
+++    <configuration default="true" type="JetRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <option name="filePath" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <envs>
+++        <env name="PYTHONUNBUFFERED" value="1" />
+++      </envs>
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="PARAMETERS" value="" />
+++      <option name="SHOW_COMMAND_LINE" value="false" />
+++      <option name="EMULATE_TERMINAL" value="false" />
+++      <option name="MODULE_MODE" value="false" />
+++      <option name="REDIRECT_INPUT" value="false" />
+++      <option name="INPUT_FILE" value="" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Python.FlaskServer">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="launchJavascriptDebuger" value="false" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Tox" factoryName="Tox">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Autodetect">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="_new_additionalArguments" value="&quot;&quot;" />
+++      <option name="_new_target" value="&quot;&quot;" />
+++      <option name="_new_targetType" value="&quot;PATH&quot;" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Doctests">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="CLASS_NAME" value="" />
+++      <option name="METHOD_NAME" value="" />
+++      <option name="FOLDER_NAME" value="" />
+++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+++      <option name="PATTERN" value="" />
+++      <option name="USE_PATTERN" value="false" />
+++      <method v="2" />
+++    </configuration>
+++  </component>
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
++       <option name="closed" value="true" />
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759955238604)
+++++ b/README.md	(date 1759955238604)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1759955482552)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_10_2025_23_31_[Changes]/shelved.patch	(date 1759955482552)
+@@ -0,0 +1,319 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a0abbd85-8614-4f73-bcd4-a7bcca98b8cd\" name=\"Changes\" comment=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"git-widget-placeholder\": \"feature/optimization\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"fix(algorithm): update Boyer-Moore implementation\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759747164780</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759747164780</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"fix(metrics): update BenchmarkRunner logic\" />\r\n    <MESSAGE value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix(algorithm): update Boyer-Moore implementation\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 3316e22d231e0b22fe60c9ea2ce807bff9089b0a)
+++++ b/.idea/workspace.xml	(date 1759955277842)
++@@ -4,7 +4,9 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation" />
+++    <list default="true" id="a0abbd85-8614-4f73-bcd4-a7bcca98b8cd" name="Changes" comment="fix(algorithm): update Boyer-Moore implementation">
+++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+++    </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++@@ -30,10 +32,113 @@
++   </component>
++   <component name="PropertiesComponent"><![CDATA[{
++   "keyToString": {
++-    "git-widget-placeholder": "feature/optimization",
++     "node.js.selected.package.tslint": "(autodetect)"
++   }
++ }]]></component>
+++  <component name="RecentsManager">
+++    <key name="MoveFile.RECENT_KEYS">
+++      <recent name="C:\Users\Пользователь\Desktop\DESIGN AND ANALYSIS\assignment2_boyermoore" />
+++    </key>
+++  </component>
+++  <component name="RunManager">
+++    <configuration default="true" type="JetRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+++      <module name="assignment2-boyermoore" />
+++      <option name="filePath" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <envs>
+++        <env name="PYTHONUNBUFFERED" value="1" />
+++      </envs>
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="PARAMETERS" value="" />
+++      <option name="SHOW_COMMAND_LINE" value="false" />
+++      <option name="EMULATE_TERMINAL" value="false" />
+++      <option name="MODULE_MODE" value="false" />
+++      <option name="REDIRECT_INPUT" value="false" />
+++      <option name="INPUT_FILE" value="" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Python.FlaskServer">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="launchJavascriptDebuger" value="false" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="Tox" factoryName="Tox">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Autodetect">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="_new_additionalArguments" value="&quot;&quot;" />
+++      <option name="_new_target" value="&quot;&quot;" />
+++      <option name="_new_targetType" value="&quot;PATH&quot;" />
+++      <method v="2" />
+++    </configuration>
+++    <configuration default="true" type="tests" factoryName="Doctests">
+++      <module name="assignment2-boyermoore" />
+++      <option name="ENV_FILES" value="" />
+++      <option name="INTERPRETER_OPTIONS" value="" />
+++      <option name="PARENT_ENVS" value="true" />
+++      <option name="SDK_HOME" value="" />
+++      <option name="WORKING_DIRECTORY" value="" />
+++      <option name="IS_MODULE_SDK" value="false" />
+++      <option name="ADD_CONTENT_ROOTS" value="true" />
+++      <option name="ADD_SOURCE_ROOTS" value="true" />
+++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+++      <option name="SCRIPT_NAME" value="" />
+++      <option name="CLASS_NAME" value="" />
+++      <option name="METHOD_NAME" value="" />
+++      <option name="FOLDER_NAME" value="" />
+++      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+++      <option name="PATTERN" value="" />
+++      <option name="USE_PATTERN" value="false" />
+++      <method v="2" />
+++    </configuration>
+++  </component>
++   <component name="TaskManager">
++     <task id="LOCAL-00001" summary="fix(algorithm): update Boyer-Moore implementation">
++       <option name="closed" value="true" />
++Index: README.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/README.md b/README.md
++new file mode 100644
++--- /dev/null	(date 1759955277858)
+++++ b/README.md	(date 1759955277858)
++@@ -0,0 +1,172 @@
+++# Boyer–Moore Majority Vote — Linear Array Algorithm (Java + Maven)
+++
+++A complete Java project implementing Boyer–Moore’s Majority Vote Algorithm for detecting the majority element in an array.
+++Extended with metrics tracking, CLI benchmarking (CSV export), optimization, and testing.
+++Built using Maven for modular structure, clean workflow, and reproducible builds.
+++
+++## Overview
+++
+++Boyer–Moore Majority Vote Algorithm determines if an element appears more than ⌊n/2⌋ times in an array using a single pass and constant space.
+++
+++This repository unifies all main branches into one modular project:
+++
+++- algorithms/ → Core Boyer–Moore implementation
+++
+++- metrics/ → PerformanceTracker for counting comparisons and assignments
+++
+++- cli/ → Benchmark runner that exports CSV results
+++
+++- testing/ → JUnit test suite for correctness
+++
+++- optimization/ → Improved version with reduced redundant comparisons
+++
+++## Project Structure
+++assignment2_boyermoore/
+++├── pom.xml
+++├── README.md
+++├── docs/
+++│   └── performance-plots/
+++│       ├── time_vs_n.csv
+++│       └── time_vs_n.png
+++└── src/
+++├── main/java/
+++│   ├── algorithms/
+++│   │   └── BoyerMoore.java
+++│   ├── metrics/
+++│   │   └── PerformanceTracker.java
+++│   └── cli/
+++│       └── BenchmarkRunner.java
+++└── test/java/
+++└── algorithms/
+++└── BoyerMooreTest.java
+++
+++## Build and Run
+++### To build:
+++mvn -q clean package
+++
+++### To run the CLI benchmark:
+++java -cp target/assignment2-boyermoore-1.0-SNAPSHOT.jar cli.BenchmarkRunner
+++
+++
+++Example Output:
+++
+++n=100    | time=0 ms | result=777 | cmp=200, asg=1, acc=100
+++n=1000   | time=0 ms | result=777 | cmp=2000, asg=1, acc=1000
+++n=10000  | time=1 ms | result=777 | cmp=20000, asg=1, acc=10000
+++n=100000 | time=6 ms | result=777 | cmp=200000, asg=1, acc=100000
+++
+++## Usage (as a Library)
+++import algorithms.BoyerMoore;
+++import metrics.PerformanceTracker;
+++
+++public class Demo {
+++public static void main(String[] args) {
+++int[] arr = {3, 3, 4, 2, 3, 3, 5};
+++
+++        PerformanceTracker tracker = new PerformanceTracker();
+++        Integer majority = BoyerMoore.findMajorityElement(arr, tracker);
+++
+++        System.out.println("Majority element: " + majority);
+++        System.out.println("Comparisons: " + tracker.getComparisons());
+++        System.out.println("Assignments: " + tracker.getAssignments());
+++        System.out.println("Array accesses: " + tracker.getArrayAccesses());
+++    }
+++}
+++
+++## Testing
+++
+++All tests are located in:
+++
+++src/test/java/algorithms/BoyerMooreTest.java
+++
+++
+++Run tests using:
+++
+++mvn test
+++
+++
+++Expected Result:
+++
+++Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+++
+++## Algorithm Summary
+++
+++- Core Logic:
+++  - Maintain a candidate and count.
+++  - Increment count when the same element repeats, decrement otherwise.
+++  - Reset candidate when count becomes zero.
+++
+++- Pseudo-code:
+++
+++candidate = None
+++count = 0
+++for x in array:
+++if count == 0:
+++candidate = x
+++count += (1 if x == candidate else -1)
+++return candidate if it appears > n/2 times else null
+++
+++
+++- Time Complexity: O(n)
+++
+++- Space Complexity: O(1)
+++
+++## Performance Metrics
+++
+++Performance metrics are collected using PerformanceTracker during CLI execution.
+++
+++time_ms -	Runtime in milliseconds
+++comparisons	- Number of comparison operations
+++assignments	- Number of variable assignments
+++array_accesses -	Number of element accesses
+++## Performance Results
+++
+++After running the CLI benchmark, the results are stored in:
+++
+++docs/performance-plots/time_vs_n.csv
+++
+++Example Table:
+++
+++n	time (ms)	comparisons	assignments	accesses
+++100	0	200	1	100
+++1000	0	2000	1	1000
+++10000	1	20000	1	10000
+++100000	6	200000	1	100000
+++Time vs Input Size
+++
+++The linear growth confirms theoretical O(n) complexity.
+++
+++### Time vs n
+++![Time vs n](docs/performance-plots/time_vs_n.png)
+++
+++## Optimization Module
+++
+++The optimization branch (feature/optimization) includes:
+++- Reduced redundant comparisons.
+++- Early termination when remaining elements cannot affect the result.
+++- Optional skipping logic when count resets.
+++
+++Result:
+++Comparisons decreased by ~8–10% for arrays with more than 10,000 elements.
+++
+++## Git Branch Overview
+++
+++main - Stable integrated version
+++feature/algorithm -	Boyer–Moore implementation
+++feature/metrics	- Performance tracking
+++feature/testing - JUnit test suite
+++feature/cli	CLI - benchmark and CSV generation
+++feature/optimization - Improved algorithm and comparison runner
+++
+++
+++## Troubleshooting
+++Issue	Solution
+++JDK isn't specified for module	Set JDK 17 in File → Project Structure → Project SDK
+++CSV not created	Ensure folder docs/performance-plots/ exists
+++Maven build errors	Use mvn clean package and reimport Maven
+++NullPointerException	Check that input array is not null
+++## Acknowledgments
+++
+++Developed by Rakhmanova Assem
+++for the Design and Analysis of Algorithms course.
+++Implements clean code, metrics-based analysis, and linear-time optimization principles.
++\ No newline at end of file
